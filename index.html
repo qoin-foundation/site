@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Qoin: closing notice</title>
+<meta name="description" content="Qoin is a way for people and businesses to pay each other. It runs on Base, its supply is fixed, and no one controls the contract. The Qoin Foundation is closing.">
+<link rel="icon" href="assets/qoin-mark.svg">
+<link rel="stylesheet" href="assets/styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+<style>
+:root { --page: 720px; }
+body { margin: 0; background: #f3f2f2; }
+    a:not(.btn) { color: var(--color-accent-700); }
+    a:not(.btn):hover { color: var(--color-accent); }
+    .btn { text-decoration: none; }
+    .btn-primary, .btn-primary:hover, .btn-primary:active { color: var(--color-bg); }
+    .btn-secondary, .btn-secondary:hover, .btn-secondary:active { color: var(--color-text); }
+    .q-body p { max-width: none; font-size: 17px; line-height: 1.62; text-wrap: pretty; margin: 0 0 15px; }
+    .q-body ul { max-width: none; font-size: 17px; line-height: 1.62; padding-left: 20px; margin: 0 0 15px; }
+    .q-body li { margin-bottom: 6px; }
+    .q-mono { font-family: ui-monospace, "SFMono-Regular", Menlo, monospace; font-size: 0.92em; word-break: break-all; }
+    .q-label { font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; opacity: 0.6; }
+    .q-h2 { font-size: 30px; line-height: 1.2; margin: 0 0 18px; }
+    .q-h3 { font-size: 20px; line-height: 1.25; margin: 0 0 10px; }
+    .q-sec { margin: 0 0 64px; }
+    .q-sub { margin-top: 40px; }
+    .q-dl { display: grid; grid-template-columns: 190px 1fr; }
+    @media (max-width: 640px) {
+      .q-dl { grid-template-columns: 1fr; gap: 2px 0 !important; }
+      .q-dl > .q-label { margin-top: 14px; }
+      .q-dl > .q-label:first-child { margin-top: 0; }
+      .card > div.q-dl { gap: 2px 0 !important; }
+      .q-h2 { font-size: 26px; }
+      .q-h3 { font-size: 19px; }
+      .q-sec { margin-bottom: 48px; }
+      .table { font-size: 15px; }
+      .table th:first-child, .table td:first-child { width: auto; }
+    }
+</style>
+</head>
+<body>
+<div class="q-body" style="background: var(--color-bg); color: var(--color-text); font-family: var(--font-body); min-height: 100%">
+
+  <div style="max-width: var(--page, 720px); margin: 0 auto; padding: 48px 24px 80px">
+
+    <header style="margin-bottom: 56px">
+      <img src="assets/qoin-lockup.svg" alt="Qoin" style="height: 46px; width: auto; margin-bottom: 28px">
+      <div style="height: 1px; background: var(--color-divider)"></div>
+      <div class="q-label" style="display: flex; flex-wrap: wrap; gap: 6px 28px; justify-content: space-between; padding-top: 10px">
+        <span>Closing notice</span>
+        <span>Base Mainnet</span>
+        <span>16 September 2026</span>
+      </div>
+    </header>
+
+    <section class="q-sec">
+      <h1 style="font-size: clamp(32px, 4.4vw, 46px); line-height: 1.14; letter-spacing: -0.02em; max-width: 20ch; margin: 0 0 20px">Qoin is a way for people and businesses to pay each other.</h1>
+      <p style="font-size: 19px; line-height: 1.55; margin: 0 0 28px">It runs on a public blockchain. You can hold it, send it, or accept it, and no Qoin company or foundation is required to administer the token or approve transactions.</p>
+      <div style="display: flex; flex-wrap: wrap; gap: 12px">
+        <a class="btn btn-primary" href="#use">I already have Qoin</a>
+        <a class="btn btn-secondary" href="#accept">I accept Qoin in my business</a>
+      </div>
+    </section>
+
+    <section class="q-sec">
+      <div class="card" style="gap: 12px; padding: 24px">
+        <h2 class="q-h3" style="margin: 0">Verify before you transact</h2>
+        <div class="q-dl" style="gap: 8px 24px; font-size: 16px; align-items: baseline">
+          <span class="q-label">Network</span>
+          <span>Base</span>
+          <span class="q-label">Contract</span>
+          <span><a class="q-mono" href="https://basescan.org/token/0x7ba2aCCC20861F7B0E58C0a97d1Ad94Cc29b3049" target="_blank" rel="noopener">0x7ba2aCCC20861F7B0E58C0a97d1Ad94Cc29b3049</a></span>
+          <span class="q-label">Last updated</span>
+          <span>16 September 2026</span>
+        </div>
+        <p style="font-size: 16px; line-height: 1.55; margin: 4px 0 0; max-width: none">Qoin transactions cannot be reversed, and activity on Base is public. Never share your recovery phrase or private key. Check the network and contract address carefully, and be cautious of anyone claiming to represent Qoin or offering guaranteed returns, exchange listings, token recovery, or official support.</p>
+      </div>
+    </section>
+
+    <section class="q-sec" id="what">
+      <h2 class="q-h2">What Qoin is</h2>
+      <p>Qoin is a peer-to-peer digital token that can be sent from one wallet address to another, much like a payment to a shop or a friend. It is not government-issued money, a bank deposit, or a security backed by an asset. It has value only when someone is willing to accept it for goods, services, or another trade.</p>
+      <p>Since July 2025, Qoin has operated on Base Mainnet. Its smart contract cannot create more tokens, freeze an address, or reverse a transaction. Your balance is recorded on the blockchain against your address. If you control the private key or recovery phrase for that address, you control the Qoin held there.</p>
+      <p>A wallet is software that manages your keys, displays your balance, and lets you sign transactions. It is not an account maintained by a company.</p>
+      <p>Qoin has no guaranteed value or liquidity. Holding or accepting it does not guarantee that you will later be able to sell it, spend it, or exchange it for cash. Wallet addresses, balances, and transactions can be viewed publicly on Base, although a person's name is not automatically attached to an address.</p>
+    </section>
+
+    <section class="q-sec" id="why">
+      <h2 class="q-h2">Why Qoin was built this way</h2>
+      <p>Qoin began in Australia in 2020 to help people and businesses trade directly, without a bank in the middle. It was designed for everyday use and not primarily for speculation.</p>
+      <p>Qoin was not intended to replace cash or national currencies. It was designed as a complementary means of exchange: a way for businesses to put spare or underused capacity to work, and for people to trade goods or services that had not found a willing cash buyer.</p>
+      <p>At the time, major public blockchains were not practical for everyday payments. Fees were high and confirmations were slow, making a coffee purchase or retail sale difficult to process. The workable alternative was a permissioned private chain: fast and inexpensive enough for retail, but operated by an organisation and not open for anyone to inspect or build on.</p>
+      <p>That private chain was intended as a starting point, not the final destination. The plan was always to move Qoin to a public network once the technology could support fast, low-cost everyday payments. Ethereum layer-2 networks, including Base, eventually made that possible.</p>
+      <p>Qoin moved to Base on 7 July 2025. Its supply is fixed, its code is public, and anyone with a Base-compatible wallet can hold, send, or accept it. Qoin no longer runs on the private chain.</p>
+    </section>
+
+    <section class="q-sec" id="closing">
+      <h2 class="q-h2">Why the Foundation is closing</h2>
+      <p>The Qoin Foundation was established to steward the project and oversee its move from a private chain to Base. That work is now complete. A public token with no contract administrator does not need a foundation to keep operating.</p>
+      <p>Closing the Foundation is therefore the final step in its role.</p>
+      <p>Your tokens remain yours, and they continue to work. What happens next (which businesses accept Qoin, what tools people build, and whether it is listed on an exchange) is up to the people who use it. The closing notice is simply the public record of the Foundation's closure.</p>
+    </section>
+
+    <section class="q-sec" id="who">
+      <h2 class="q-h2">Who Qoin is for</h2>
+      <p>Qoin has always depended on two sides of a trade: someone who wants to spend it and someone willing to accept it in exchange for something of value. That has not changed.</p>
+      <div class="q-sub">
+        <h3 class="q-h3">Consumers</h3>
+        <p>If you already hold Qoin, it remains at your blockchain address. You can hold it, send it to another person, or use it with a business that accepts it. You do not need permission from an organisation. Protect your recovery phrase: it is the key to your wallet.</p>
+      </div>
+      <div class="q-sub">
+        <h3 class="q-h3">Merchants</h3>
+        <p>A business can accept Qoin for a sale or invoice, or offer it as a loyalty or promotional reward. There is no application form, membership requirement, or official directory. You and the customer agree on the exchange rate.</p>
+      </div>
+    </section>
+
+    <section class="q-sec" id="record">
+      <h2 class="q-h2">The record</h2>
+      <div class="q-dl" style=" gap: 10px 28px; font-size: 17px; align-items: baseline; margin-bottom: 32px">
+        <span class="q-label">Network</span>
+        <span>Base</span>
+        <span class="q-label">Supply</span>
+        <span>394,812,949.44</span>
+        <span class="q-label">Can more be created?</span>
+        <span>No</span>
+        <span class="q-label">On Base since</span>
+        <span>7 July 2025</span>
+        <span class="q-label">Contract</span>
+        <span class="q-mono">0x7ba2aCCC20861F7B0E58C0a97d1Ad94Cc29b3049</span>
+        <span class="q-label">Security review</span>
+        <span>PeckShield #2024-243</span>
+      </div>
+      <div class="q-dl" style=" gap: 10px 28px; font-size: 17px; align-items: baseline">
+        <span class="q-label">January 2020</span>
+        <span>Qoin launches on a private chain.</span>
+        <span class="q-label">7 July 2025</span>
+        <span>Qoin moves to Base with a fixed supply and no contract owner.</span>
+        <span class="q-label">15 February 2026</span>
+        <span>Support for the Qoin App ends.</span>
+        <span class="q-label">Now</span>
+        <span>The Foundation is closing; the token remains unchanged.</span>
+      </div>
+    </section>
+
+    <section class="q-sec" id="next">
+      <h2 class="q-h2">Use it. Accept it. Build around it.</h2>
+      <p>Qoin does not need a foundation to keep working. People can use it, businesses can accept it, communities can organise around it, and builders can create tools for it. There is no membership, application, or central approval process.</p>
+
+      <div class="q-sub" id="use">
+        <h3 class="q-h3">If you want to use Qoin</h3>
+        <p>You can send Qoin to anyone willing to accept it, pay a participating business, or trade it directly for goods or services. The amount and value are agreed between the people involved.</p>
+        <ul>
+          <li>Find a person or business willing to accept Qoin.</li>
+          <li>Agree on what is being exchanged and how much Qoin will be sent.</li>
+          <li>Send it to the recipient's Base-compatible wallet address.</li>
+          <li>Check the address carefully before confirming; the transaction cannot be reversed.</li>
+          <li>Keep your recovery phrase private, safe, and offline.</li>
+        </ul>
+        <p>Sending Qoin requires a small transaction fee on Base, normally paid in ETH. Some wallets may cover this fee for their users; others may require the sender to hold a small amount of ETH.</p>
+      </div>
+
+      <div class="q-sub" id="migrate">
+        <h3 class="q-h3">If you held Qoin before the move to Base</h3>
+        <p>Before this notice was published, the Foundation transferred Qoin on Base to the original wallet addresses of holders who had not completed the migration themselves. To access those tokens, use the recovery phrase from your original Qoin wallet to restore that wallet in a Base-compatible self-custodial wallet.</p>
+        <p>Choose a wallet yourself and obtain it only from the provider's official source. Follow that wallet's instructions to restore an existing wallet, select the Base network, and add a custom token using these details:</p>
+        <div class="q-dl" style=" gap: 8px 28px; font-size: 17px; align-items: baseline; margin: 0 0 18px">
+          <span class="q-label">Network</span>
+          <span>Base</span>
+          <span class="q-label">Contract address</span>
+          <span class="q-mono">0x7ba2aCCC20861F7B0E58C0a97d1Ad94Cc29b3049</span>
+          <span class="q-label">Token name</span>
+          <span>Qoin</span>
+          <span class="q-label">Token symbol</span>
+          <span>QOIN</span>
+          <span class="q-label">Decimals</span>
+          <span>18</span>
+        </div>
+        <p>Only enter your recovery phrase into a trusted wallet application when restoring the wallet. Never send it to another person, enter it into a support form or website, or share it with someone offering to help. Anyone who has the phrase can control the wallet and everything held in it.</p>
+        <p>At the time of writing Qoin is not listed on an exchange, so it does not have an exchange-generated public market price. People are free to agree on a value for each trade. They may choose to use the last published Indicative Fair-Trade Value as a historical reference, but it is not a live market price and is not binding.</p>
+      </div>
+
+      <div class="q-sub" id="accept">
+        <h3 class="q-h3">If you want to accept Qoin in your business</h3>
+        <p>You can begin accepting Qoin without registering or seeking permission. Decide what you are willing to offer, agree on the value with the customer, and provide a Base-compatible wallet address for payment.</p>
+        <p>Qoin can be used for a full or partial payment, on an invoice, or as a loyalty or promotional reward. It may be particularly useful when a business has spare capacity, such as unfilled appointments, unused inventory, or available services, and wants to generate an additional trade rather than leave that capacity unused.</p>
+        <p>A business choosing to accept Qoin should make its own decisions about pricing, record-keeping, wallet security, and how much Qoin it is comfortable holding. Users and businesses remain responsible for their own accounting, tax, regulatory, and legal obligations.</p>
+      </div>
+
+      <div class="q-sub" id="community">
+        <h3 class="q-h3">If you want to support the community</h3>
+        <p>You do not need to write code to contribute. Community members can help make Qoin easier to use by:</p>
+        <ul>
+          <li>keeping an independent list of businesses that accept it;</li>
+          <li>writing plain-language guides for new users;</li>
+          <li>helping people set up and use compatible wallets safely;</li>
+          <li>creating local groups where buyers and sellers can find each other; or</li>
+          <li>sharing practical examples of how Qoin is being used.</li>
+        </ul>
+        <p>Any directory, guide, group, or service is independently operated. It should clearly identify who runs it and should not present itself as official or endorsed by the former Foundation.</p>
+      </div>
+
+      <div class="q-sub" id="help">
+        <h3 class="q-h3">Getting help</h3>
+        <p>The Foundation will not provide formal support after it closes. Community members may choose to assist other users, and independent projects that use Qoin may provide support for their own products or services. Any such assistance is independent and is not Foundation support or endorsement.</p>
+        <p>A legitimate helper never needs your recovery phrase or private key. If anyone asks for either, stop communicating with them. Do not follow links or install software provided by an unknown person, and never allow someone remote access to your device or wallet.</p>
+      </div>
+
+      <div class="q-sub" id="build">
+        <h3 class="q-h3">If you want to build with Qoin</h3>
+        <p>Qoin is a standard ERC-20 token on Base, with support for EIP-2612 permit. Its contract is deployed, the code is public, and there is no contract administrator to coordinate with. Most tools built for standard ERC-20 tokens on Base can support Qoin without custom contract logic.</p>
+        <p>Builders might create:</p>
+        <ul>
+          <li>a simpler wallet for non-technical users;</li>
+          <li>point-of-sale or checkout tools for merchants;</li>
+          <li>payment links and invoicing tools;</li>
+          <li>independent merchant directories;</li>
+          <li>loyalty and rewards tools;</li>
+          <li>accounting, reporting, or transaction-history interfaces; or</li>
+          <li>other services that make peer-to-peer trade easier.</li>
+        </ul>
+        <p>Developers may also fork the open-source code to create a separate project. Any fork should be clearly presented as its own project, not as Qoin or a continuation of the Foundation.</p>
+      </div>
+
+      <div class="q-sub" id="technical">
+        <h3 class="q-h3">Technical reference</h3>
+        <table class="table" style="margin-top: 16px">
+          <thead>
+            <tr><th style="width: 32%">Resource</th><th>Details</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Source code</td><td><a href="https://github.com/qoin-foundation/Qoin-Token-Contracts" target="_blank" rel="noopener">github.com/qoin-foundation/Qoin-Token-Contracts</a></td></tr>
+            <tr><td>Licence</td><td>MIT: use, modify, and distribute, including commercially</td></tr>
+            <tr><td>Security review</td><td>PeckShield #2024-243, 28 September 2024; report URL and confirmation against the deployed contract to be added</td></tr>
+            <tr><td>Contract</td><td><a href="https://basescan.org/token/0x7ba2aCCC20861F7B0E58C0a97d1Ad94Cc29b3049" target="_blank" rel="noopener">View the address on BaseScan</a></td></tr>
+            <tr><td>Brand assets</td><td><a href="assets/qoin-lockup.svg" target="_blank" rel="noopener">Qoin lockup (SVG)</a> · <a href="assets/qoin-mark.svg" target="_blank" rel="noopener">mark only (SVG)</a></td></tr>
+            <tr><td>Network</td><td>Base</td></tr>
+            <tr><td>Token symbol</td><td>QOIN</td></tr>
+            <tr><td>Token standard</td><td>ERC-20 with EIP-2612 permit</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="q-sub" id="participation">
+        <h3 class="q-h3">What participation does and does not include</h3>
+        <p>The deployed contract, public code, audit, and Base network remain available. What does not remain is a central organisation offering grants, funding, introductions, access to a user list, technical approval, or project endorsement. There is no office to apply to and no official group that speaks for Qoin.</p>
+        <p>Anyone can start a project around Qoin, but that project represents only the people running it. If you create something, be clear about who you are, what you provide, and that your work is independent. That transparency will help people understand who they are dealing with and decide for themselves whether to take part.</p>
+      </div>
+    </section>
+
+    <section class="q-sec" id="remains">
+      <h2 class="q-h2">What remains</h2>
+      <p>Qoin continues to work because people use it with one another, not because an organisation stands behind it. The most important part of the original plan is complete: Qoin now runs on a public blockchain, its supply is fixed, and no one controls the contract.</p>
+      <p>The living part of Qoin was always the trade: a customer paying, a merchant accepting, and a loyalty reward moving back the other way.</p>
+      <p>If you already hold Qoin, you do not need to wait for anyone. Check your balance, keep your recovery phrase safe and offline, and use Qoin with people and businesses willing to accept it. Building a larger market is now community work. This site cannot organise that work or suggest that another organisation is about to take over.</p>
+    </section>
+
+    <footer style="padding-top: 24px; border-top: 1px solid var(--color-divider)">
+      <p style="font-size: 15px; line-height: 1.55; margin: 0 0 16px">This page provides general information only. It is not financial, investment, legal, tax, or accounting advice. Users and businesses should consider their own circumstances and obtain independent advice where appropriate.</p>
+      <p class="q-label" style="margin: 0">Qoin Foundation · Closing notice · 16 September 2026</p>
+    </footer>
+  </div>
+</div>
+</body>
+</html>
